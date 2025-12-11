@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 :root {
   --primary: #0ea5e9;
   --accent: #f472b6;
@@ -21,7 +24,7 @@ body {
   margin: 0;
   padding: 0;
   max-width: 100%;
-  font-family: "Inter", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: var(--background);
   color: var(--foreground);
 }

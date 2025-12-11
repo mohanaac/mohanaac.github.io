@@ -29,6 +29,11 @@ const testimonials = [
       "Had a great experience with my AC installation. Mr Mani clearly explained the options and helped me pick the right one. Installation was smooth and everything works perfectly. Really happy with the service!",
     rating: 4,
   },
+  {
+    name: "Aravind Kumar",
+    feedback: "Good work👌🏻 bro I am impress your working skills 🫡♥️",
+    rating: 4,
+  },
 ];
 
 const responsive = {

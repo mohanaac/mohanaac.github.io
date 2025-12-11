@@ -66,7 +66,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>service@mohanaac.com</span>
+                <span>manimogana05@gmail.com</span>
               </div>
             </div>
           </div>
@@ -152,7 +152,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-sm text-muted-foreground flex items-center justify-center">
-              © {currentYear} Mohana AC Services.
+              © {currentYear} Mohana Air Conditioners. All rights reserved.
             </p>
           </div>
 

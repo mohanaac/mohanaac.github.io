@@ -21,8 +21,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      details: 'service@mohanaac.com',
-      action: 'mailto:service@mohanaac.com',
+      details: 'manimogana05@gmail.com',
+      action: 'mailto:manimogana05@gmail.com',
       color: 'text-blue-400',
     },
     {

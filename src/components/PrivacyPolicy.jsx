@@ -97,10 +97,10 @@ const PrivacyPolicy = () => {
               If you have any questions or requests related to privacy, reach us
               at{" "}
               <a
-                href="mailto:service@mohanaac.com"
+                href="mailto:manimogana05@gmail.com"
                 className="text-primary underline hover:text-accent transition"
               >
-                service@mohanaac.com
+                manimogana05@gmail.com
               </a>
               .
             </p>
