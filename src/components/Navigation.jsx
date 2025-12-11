@@ -51,13 +51,11 @@ const Navigation = () => {
     element.scrollIntoView({ behavior: "smooth" });
     setActiveSection(id);
 
-    // Clear previous timeout
     if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
 
-    // Allow scrolling updates after animation finishes
     scrollTimeout.current = setTimeout(() => {
       isScrolling.current = false;
-    }, 700); // slightly longer for mobile smooth scrolling
+    }, 700); 
   };
 
   const navItems = [
@@ -78,7 +76,6 @@ const Navigation = () => {
 
   return (
     <>
-      {/* Desktop Navigation */}
       <nav
         className={`fixed top-4 left-1/2 transform -translate-x-1/2 z-50 backdrop-blur-md bg-white/10 border border-white/10 shadow-xl transition-all duration-500
           ${
@@ -147,8 +144,6 @@ const Navigation = () => {
           </Button>
         </a>
       </nav>
-
-      {/* Mobile Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 h-16 flex items-center justify-between px-4 md:hidden backdrop-blur-md bg-white/10 border-b border-white/10 shadow-xl rounded-b-2xl">
         <div
           className="w-7 h-9 cursor-pointer"

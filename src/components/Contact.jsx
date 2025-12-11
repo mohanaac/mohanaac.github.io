@@ -33,20 +33,8 @@ const Contact = () => {
     },
   ];
 
-  const serviceAreas = [
-    { name: 'Hyderabad', lat: 17.3850, lng: 78.4867 },
-    { name: 'Secunderabad', lat: 17.4399, lng: 78.4983 },
-    { name: 'Cyberabad', lat: 17.4435, lng: 78.3772 },
-    { name: 'Gachibowli', lat: 17.4403, lng: 78.3489 },
-    { name: 'Hitech City', lat: 17.4478, lng: 78.3773 },
-    { name: 'Madhapur', lat: 17.4485, lng: 78.3908 },
-    { name: 'Kondapur', lat: 17.4617, lng: 78.3618 },
-    { name: 'Kukatpally', lat: 17.4944, lng: 78.4071 },
-  ];
-
   return (
     <section id="contact" className="py-24 px-4 relative overflow-hidden">
-      {/* Background decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-primary rounded-full blur-3xl animate-float"></div>
         <div
@@ -56,7 +44,7 @@ const Contact = () => {
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        {/* Header */}
+
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-6xl font-bold mb-6">
             Get In <span className="text-gradient">Touch</span>
@@ -68,7 +56,6 @@ const Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Information */}
           <div className="space-y-8">
             <div className="grid sm:grid-cols-2 gap-6">
               {contactInfo.map((info, index) => (
@@ -108,7 +95,6 @@ const Contact = () => {
               ))}
             </div>
 
-            {/* Service Areas Map */}
             <div className="glass-card animate-fade-in">
               <div className="space-y-4">
                 <div className="flex items-center space-x-3 mb-4">
@@ -133,7 +119,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Quick Service Request */}
           <div className="glass-strong p-8 rounded-3xl glow-accent animate-slide-in">
             <h3 className="text-2xl font-bold text-gradient mb-6">
               Quick Service Request

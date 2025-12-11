@@ -33,14 +33,12 @@ const Footer = () => {
 
   return (
     <footer className="py-16 px-4 border-t border-glass-border relative overflow-hidden">
-      {/* Background decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-0 left-1/2 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center">
               <div className="w-60 h-15 flex items-center justify-center">
@@ -52,13 +50,11 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Company Description */}
             <p className="text-muted-foreground leading-relaxed text-sm">
               Professional home appliance repair and maintenance services.
               Trusted by 500+ customers across Chennai.
             </p>
 
-            {/* Contact Info */}
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary" />
@@ -71,7 +67,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div id="services" className="space-y-6 scroll-mt-20">
             <h3 className="text-lg font-semibold text-foreground">
               Our Services
@@ -91,7 +86,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact CTA */}
           <div className="space-y-6">
             <h3 className="text-lg font-semibold text-foreground">
               Get Help Now
@@ -128,7 +122,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-glass-border text-center space-y-3">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="flex items-center justify-center space-x-6 text-sm text-muted-foreground">

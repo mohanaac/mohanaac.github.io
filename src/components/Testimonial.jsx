@@ -60,14 +60,12 @@ const Testimonials = () => {
       id="testimonial"
       className="pt-32 pb-32 px-4 relative overflow-visible"
     >
-      {/* Background Blurs */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-0 right-1/3 w-96 h-96 bg-accent rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-6xl font-bold mb-6">
             What Our <span className="text-gradient">Customers Say</span>
@@ -77,8 +75,6 @@ const Testimonials = () => {
             satisfaction is our goal.
           </p>
         </div>
-
-        {/* Multi-carousel */}
         <Carousel
           responsive={responsive}
           infinite={true}

@@ -7,7 +7,6 @@ const Hero = () => {
     { icon: Shield, label: "100% Guaranteed", color: "text-green-400" },
   ];
 
-  // Smooth scroll function
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -20,7 +19,6 @@ const Hero = () => {
       id="hero"
       className="min-h-screen flex items-center justify-center pt-20 px-4 relative overflow-hidden"
     >
-      {/* Background decorations */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-primary rounded-full blur-3xl animate-float"></div>
         <div
@@ -30,7 +28,6 @@ const Hero = () => {
       </div>
 
       <div className="w-full max-w-7xl px-4 mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
-        {/* Content */}
         <div className="space-y-8 animate-slide-in">
           <div className="space-y-4">
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight text-center lg:text-left">
@@ -44,11 +41,10 @@ const Hero = () => {
             </p>
           </div>
 
-          {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
             <Button
               className="btn-primary group"
-              onClick={() => scrollToSection("services")} // <-- UPDATED
+              onClick={() => scrollToSection("services")}
             >
               View Our Services
               <ArrowRight
@@ -64,7 +60,6 @@ const Hero = () => {
             </Button>
           </div>
 
-          {/* Stats */}
           <div className="flex flex-wrap gap-6 pt-8 justify-center lg:justify-start">
             {stats.map((stat, index) => (
               <div
@@ -84,7 +79,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Visual Element */}
         <div className="lg:flex justify-center animate-fade-in mt-12 lg:mt-0">
           <div className="relative w-full max-w-md mx-auto">
             <div className="glass-strong w-full p-8 rounded-3xl glow-accent float">
@@ -145,7 +139,6 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Floating elements */}
             <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-r from-primary to-accent rounded-full blur-md opacity-60 animate-glow"></div>
             <div
               className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-r from-accent to-primary-glow rounded-full blur-sm opacity-40 animate-glow"
