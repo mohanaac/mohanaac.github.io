@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1c84b1ee.css",
+    "main.js": "/static/js/main.dec3a32d.js",
+    "static/media/Mohana_logo_alone.png": "/static/media/Mohana_logo_alone.89e2ee3eaa074a618ba0.png",
+    "static/media/Mohana_logo.png": "/static/media/Mohana_logo.3a9d8b2d9883aecd489b.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.1c84b1ee.css.map": "/static/css/main.1c84b1ee.css.map",
+    "main.dec3a32d.js.map": "/static/js/main.dec3a32d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c84b1ee.css",
+    "static/js/main.dec3a32d.js"
+  ]
+}
